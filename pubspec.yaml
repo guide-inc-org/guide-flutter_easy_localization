@@ -13,7 +13,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  shared_preferences: '>=2.0.0 <3.0.0'
+  shared_preferences:
+    git:
+      url: https://github.com/guide-inc-org/guide-flutter_packages.git
+      ref: sbi-cfd/shared_preferences_v2.0.17
+      path: packages/shared_preferences/shared_preferences
   intl: '>=0.17.0-0 <=0.17.0'
   args: ^2.3.1
   path: ^1.8.1
